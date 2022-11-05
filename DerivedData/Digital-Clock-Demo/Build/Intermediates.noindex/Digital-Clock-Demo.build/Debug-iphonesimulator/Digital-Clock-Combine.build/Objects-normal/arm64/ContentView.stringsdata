@@ -1,0 +1,20 @@
+{
+  "source": "/Users/miyamototaishin/Desktop/Digital-Clock-Demo/Digital-Clock-Combine/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "%@"
+      },
+      {
+        "comment": "",
+        "key": "8888-88-88"
+      },
+      {
+        "comment": "",
+        "key": "88:88:88"
+      }
+    ]
+  },
+  "version": 1
+}

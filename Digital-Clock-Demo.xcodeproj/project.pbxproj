@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CD057C0286DB79900706E0B /* Digital_Clock_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD057BF286DB79900706E0B /* Digital_Clock_DemoApp.swift */; };
+		1CC2A7B729169294003DF21E /* Digital_Clock_CombineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC2A7B629169294003DF21E /* Digital_Clock_CombineApp.swift */; };
+		1CC2A7B929169294003DF21E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC2A7B829169294003DF21E /* ContentView.swift */; };
+		1CC2A7BB29169296003DF21E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC2A7BA29169296003DF21E /* Assets.xcassets */; };
+		1CC2A7BE29169296003DF21E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC2A7BD29169296003DF21E /* Preview Assets.xcassets */; };
+		1CC2A7C4291692EE003DF21E /* DSEG7Modern-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CC2A7C3291692EE003DF21E /* DSEG7Modern-BoldItalic.ttf */; };
+		1CC2A7C629169325003DF21E /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC2A7C529169325003DF21E /* ViewModel.swift */; };
+		1CD057C0286DB79900706E0B /* Digital_Clock_TimelineViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD057BF286DB79900706E0B /* Digital_Clock_TimelineViewApp.swift */; };
 		1CD057C2286DB79900706E0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD057C1286DB79900706E0B /* ContentView.swift */; };
 		1CD057C4286DB79B00706E0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CD057C3286DB79B00706E0B /* Assets.xcassets */; };
 		1CD057C7286DB79B00706E0B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CD057C6286DB79B00706E0B /* Preview Assets.xcassets */; };
@@ -15,8 +21,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1CD057BC286DB79900706E0B /* Digital-Clock-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Digital-Clock-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CD057BF286DB79900706E0B /* Digital_Clock_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digital_Clock_DemoApp.swift; sourceTree = "<group>"; };
+		1CC2A7B429169294003DF21E /* Digital-Clock-Combine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Digital-Clock-Combine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC2A7B629169294003DF21E /* Digital_Clock_CombineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digital_Clock_CombineApp.swift; sourceTree = "<group>"; };
+		1CC2A7B829169294003DF21E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1CC2A7BA29169296003DF21E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CC2A7BD29169296003DF21E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1CC2A7C2291692B1003DF21E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1CC2A7C3291692EE003DF21E /* DSEG7Modern-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG7Modern-BoldItalic.ttf"; sourceTree = "<group>"; };
+		1CC2A7C529169325003DF21E /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		1CD057BC286DB79900706E0B /* Digital-Clock-TimelineView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Digital-Clock-TimelineView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CD057BF286DB79900706E0B /* Digital_Clock_TimelineViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digital_Clock_TimelineViewApp.swift; sourceTree = "<group>"; };
 		1CD057C1286DB79900706E0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1CD057C3286DB79B00706E0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CD057C6286DB79B00706E0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -25,6 +39,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1CC2A7B129169294003DF21E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1CD057B9286DB79900706E0B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -35,10 +56,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CC2A7B529169294003DF21E /* Digital-Clock-Combine */ = {
+			isa = PBXGroup;
+			children = (
+				1CC2A7C2291692B1003DF21E /* Info.plist */,
+				1CC2A7C3291692EE003DF21E /* DSEG7Modern-BoldItalic.ttf */,
+				1CC2A7B629169294003DF21E /* Digital_Clock_CombineApp.swift */,
+				1CC2A7B829169294003DF21E /* ContentView.swift */,
+				1CC2A7C529169325003DF21E /* ViewModel.swift */,
+				1CC2A7BA29169296003DF21E /* Assets.xcassets */,
+				1CC2A7BC29169296003DF21E /* Preview Content */,
+			);
+			path = "Digital-Clock-Combine";
+			sourceTree = "<group>";
+		};
+		1CC2A7BC29169296003DF21E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1CC2A7BD29169296003DF21E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		1CD057B3286DB79900706E0B = {
 			isa = PBXGroup;
 			children = (
-				1CD057BE286DB79900706E0B /* Digital-Clock-Demo */,
+				1CD057BE286DB79900706E0B /* Digital-Clock-TimelineView */,
+				1CC2A7B529169294003DF21E /* Digital-Clock-Combine */,
 				1CD057BD286DB79900706E0B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,22 +90,23 @@
 		1CD057BD286DB79900706E0B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1CD057BC286DB79900706E0B /* Digital-Clock-Demo.app */,
+				1CD057BC286DB79900706E0B /* Digital-Clock-TimelineView.app */,
+				1CC2A7B429169294003DF21E /* Digital-Clock-Combine.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1CD057BE286DB79900706E0B /* Digital-Clock-Demo */ = {
+		1CD057BE286DB79900706E0B /* Digital-Clock-TimelineView */ = {
 			isa = PBXGroup;
 			children = (
 				1CD057CF286DB7DA00706E0B /* Info.plist */,
 				1CD057CD286DB7BA00706E0B /* DSEG7Modern-BoldItalic.ttf */,
-				1CD057BF286DB79900706E0B /* Digital_Clock_DemoApp.swift */,
+				1CD057BF286DB79900706E0B /* Digital_Clock_TimelineViewApp.swift */,
 				1CD057C1286DB79900706E0B /* ContentView.swift */,
 				1CD057C3286DB79B00706E0B /* Assets.xcassets */,
 				1CD057C5286DB79B00706E0B /* Preview Content */,
 			);
-			path = "Digital-Clock-Demo";
+			path = "Digital-Clock-TimelineView";
 			sourceTree = "<group>";
 		};
 		1CD057C5286DB79B00706E0B /* Preview Content */ = {
@@ -75,9 +120,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1CD057BB286DB79900706E0B /* Digital-Clock-Demo */ = {
+		1CC2A7B329169294003DF21E /* Digital-Clock-Combine */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1CD057CA286DB79B00706E0B /* Build configuration list for PBXNativeTarget "Digital-Clock-Demo" */;
+			buildConfigurationList = 1CC2A7BF29169296003DF21E /* Build configuration list for PBXNativeTarget "Digital-Clock-Combine" */;
+			buildPhases = (
+				1CC2A7B029169294003DF21E /* Sources */,
+				1CC2A7B129169294003DF21E /* Frameworks */,
+				1CC2A7B229169294003DF21E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Digital-Clock-Combine";
+			productName = "Digital-Clock-Combine";
+			productReference = 1CC2A7B429169294003DF21E /* Digital-Clock-Combine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CD057BB286DB79900706E0B /* Digital-Clock-TimelineView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CD057CA286DB79B00706E0B /* Build configuration list for PBXNativeTarget "Digital-Clock-TimelineView" */;
 			buildPhases = (
 				1CD057B8286DB79900706E0B /* Sources */,
 				1CD057B9286DB79900706E0B /* Frameworks */,
@@ -87,9 +149,9 @@
 			);
 			dependencies = (
 			);
-			name = "Digital-Clock-Demo";
+			name = "Digital-Clock-TimelineView";
 			productName = "Digital-Clock-Demo";
-			productReference = 1CD057BC286DB79900706E0B /* Digital-Clock-Demo.app */;
+			productReference = 1CD057BC286DB79900706E0B /* Digital-Clock-TimelineView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,9 +161,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1340;
+				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
+					1CC2A7B329169294003DF21E = {
+						CreatedOnToolsVersion = 14.1;
+					};
 					1CD057BB286DB79900706E0B = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
@@ -120,12 +185,23 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1CD057BB286DB79900706E0B /* Digital-Clock-Demo */,
+				1CD057BB286DB79900706E0B /* Digital-Clock-TimelineView */,
+				1CC2A7B329169294003DF21E /* Digital-Clock-Combine */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1CC2A7B229169294003DF21E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC2A7C4291692EE003DF21E /* DSEG7Modern-BoldItalic.ttf in Resources */,
+				1CC2A7BE29169296003DF21E /* Preview Assets.xcassets in Resources */,
+				1CC2A7BB29169296003DF21E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1CD057BA286DB79900706E0B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -139,18 +215,92 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1CC2A7B029169294003DF21E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC2A7B929169294003DF21E /* ContentView.swift in Sources */,
+				1CC2A7C629169325003DF21E /* ViewModel.swift in Sources */,
+				1CC2A7B729169294003DF21E /* Digital_Clock_CombineApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1CD057B8286DB79900706E0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1CD057C2286DB79900706E0B /* ContentView.swift in Sources */,
-				1CD057C0286DB79900706E0B /* Digital_Clock_DemoApp.swift in Sources */,
+				1CD057C0286DB79900706E0B /* Digital_Clock_TimelineViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		1CC2A7C029169296003DF21E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Digital-Clock-Combine/Preview Content\"";
+				DEVELOPMENT_TEAM = 69BMRJXU5B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Digital-Clock-Combine/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Digital-Clock-Combine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CC2A7C129169296003DF21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Digital-Clock-Combine/Preview Content\"";
+				DEVELOPMENT_TEAM = 69BMRJXU5B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Digital-Clock-Combine/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Digital-Clock-Combine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		1CD057C8286DB79B00706E0B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -272,11 +422,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Digital-Clock-Demo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Digital-Clock-TimelineView/Preview Content\"";
 				DEVELOPMENT_TEAM = 69BMRJXU5B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Digital-Clock-Demo/Info.plist";
+				INFOPLIST_FILE = "Digital-Clock-TimelineView/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,11 +452,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Digital-Clock-Demo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Digital-Clock-TimelineView/Preview Content\"";
 				DEVELOPMENT_TEAM = 69BMRJXU5B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Digital-Clock-Demo/Info.plist";
+				INFOPLIST_FILE = "Digital-Clock-TimelineView/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -328,6 +478,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1CC2A7BF29169296003DF21E /* Build configuration list for PBXNativeTarget "Digital-Clock-Combine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC2A7C029169296003DF21E /* Debug */,
+				1CC2A7C129169296003DF21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1CD057B7286DB79900706E0B /* Build configuration list for PBXProject "Digital-Clock-Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -337,7 +496,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1CD057CA286DB79B00706E0B /* Build configuration list for PBXNativeTarget "Digital-Clock-Demo" */ = {
+		1CD057CA286DB79B00706E0B /* Build configuration list for PBXNativeTarget "Digital-Clock-TimelineView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1CD057CB286DB79B00706E0B /* Debug */,
