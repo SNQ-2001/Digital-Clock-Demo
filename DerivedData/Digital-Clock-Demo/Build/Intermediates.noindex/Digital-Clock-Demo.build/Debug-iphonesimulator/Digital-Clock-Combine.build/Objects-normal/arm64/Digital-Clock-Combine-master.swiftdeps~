@@ -1,8 +1,0 @@
-version: "Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
-options: "765e47a30b266d7d85b8c726ee3221c8652159740665425fbce38e03559e2b58"
-build_start_time: [1667652913, 690916061]
-build_end_time: [1667652913, 754809856]
-inputs:
-  "/Users/miyamototaishin/Desktop/Digital-Clock-Demo/Digital-Clock-Combine/ContentView.swift": !private [1667652896, 522450923]
-  "/Users/miyamototaishin/Desktop/Digital-Clock-Demo/Digital-Clock-Combine/Digital_Clock_CombineApp.swift": !private [1667652372, 575164318]
-  "/Users/miyamototaishin/Desktop/Digital-Clock-Demo/Digital-Clock-Combine/ViewModel.swift": !private [1667652889, 479053974]
