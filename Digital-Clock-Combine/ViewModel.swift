@@ -11,11 +11,12 @@ import Foundation
 final class ViewModel: ObservableObject {
     @Published var time: Date = Date.now
 
+    let timer = Timer.publish(every: 1, on: .main, in: .default).autoconnect()
+
     private var cancellables = Set<AnyCancellable>()
 
     init() {
-        Timer.publish(every: 1, on: .main, in: .default)
-            .autoconnect()
+        timer
             .sink { [weak self] date in
                 guard let self else { return }
                 self.time = Date.now

@@ -37,5 +37,8 @@ struct ContentView: View {
                 }
             }
         }
+        .onDisappear {
+            viewModel.timer.upstream.connect().cancel()
+        }
     }
 }
